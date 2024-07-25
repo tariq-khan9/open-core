@@ -5,12 +5,12 @@ import { CiTwitter } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 
-const social = [
-  <CiInstagram/>,
-  <AiOutlineFacebook/>,
-  <CiTwitter/>,
-  <CiLinkedin/>
-]
+// const social = [
+//   <CiInstagram/>,
+//   <AiOutlineFacebook/>,
+//   <CiTwitter/>,
+//   <CiLinkedin/>
+// ]
 
 
 const Footer: React.FC = () => {
@@ -28,12 +28,25 @@ const Footer: React.FC = () => {
                         </p>
 
                         <div className='flex flex-row  justify-between mt-4 '>
-                          {social.map((icon, index)=>(
+                          {/* {social.map((icon, index)=>(
                           <div key={index}  className='bg-[#F2F4F7] w-6 h-6 flex justify-center items-center'>
                             
                               {icon}
                               </div>
-                            ))}
+                            ))} */}
+
+                            <div  className='bg-[#F2F4F7] w-6 h-6 flex justify-center items-center'>
+                              <CiInstagram/>
+                            </div>
+                            <div  className='bg-[#F2F4F7] w-6 h-6 flex justify-center items-center'>
+                              <AiOutlineFacebook/>
+                            </div>
+                            <div  className='bg-[#F2F4F7] w-6 h-6 flex justify-center items-center'>
+                              <CiTwitter/>
+                            </div>
+                            <div  className='bg-[#F2F4F7] w-6 h-6 flex justify-center items-center'>
+                              <CiLinkedin/>
+                            </div>
                         </div>
                       
                         
