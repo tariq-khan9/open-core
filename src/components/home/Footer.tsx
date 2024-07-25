@@ -28,8 +28,8 @@ const Footer: React.FC = () => {
                         </p>
 
                         <div className='flex flex-row  justify-between mt-4 '>
-                          {social.map((icon)=>(
-                          <div  className='bg-[#F2F4F7] w-6 h-6 flex justify-center items-center'>
+                          {social.map((icon, index)=>(
+                          <div key={index}  className='bg-[#F2F4F7] w-6 h-6 flex justify-center items-center'>
                             
                               {icon}
                               </div>

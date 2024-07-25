@@ -10,7 +10,7 @@ const Ideas: React.FC = () => {
                 </h1>
 
                 <p className='mt-4 text-[12px] max-w-[330px]'>
-                Let's build something extraordinary together to captivate your audience.
+                Lets build something extraordinary together to captivate your audience.
                 </p>
             </div>
 
