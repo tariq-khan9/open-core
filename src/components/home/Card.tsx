@@ -15,7 +15,7 @@ const icons:  { [key: string]: JSX.Element }  = {
 const Card: React.FC<CardProps> = ({data}) => {
   return (
     <div className='max-w-[350px] font-dm-sans'>
-      <img src={data.image}/>
+      <img src={data.image} alt='image'/>
       <h1 className=' text-[22px] font-medium  mt-2'>
       {data.text}
       </h1>

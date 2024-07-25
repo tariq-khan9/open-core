@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
                     </div>
 
                     <div className='w-full relative  flex justify-center items-end mt-36'>
-                      <img src='/images/logo-text.svg' className='w-[60%] absolute bottom-[-20px]'/>
+                      <img src='/images/logo-text.svg' alt='image' className='w-[60%] absolute bottom-[-20px]'/>
                     </div>
 
             </div>
