@@ -12,6 +12,6 @@
 }
 
 .resource-btn {
-  @apply font-dm-sans text-[14px] text-gray-500 font-medium border border-gray-300  p-2 px-4  rounded-md focus:bg-[#EDF2F5] focus:text-gray-700 focus:border-none
+  @apply font-dm-sans text-[10px] sm:text-[14px] text-gray-500 font-medium border border-gray-300  p-2 sm:px-4  rounded-md focus:bg-[#EDF2F5] focus:text-gray-700 focus:border-none
 }
 

@@ -13,8 +13,8 @@ const Resources: React.FC = () => {
 const [selectedButton, setSelectedButton] = useState(resourceButtons[0]);
 
   return (
-    <div className='w-full'>
-          <div className='relative'>
+    <div className=' w-full flex flex-col items-center justify-center'>
+          <div className='relative sm:w-full w-[60%]'>
               <IoSearchOutline className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-600' />
               <input 
                 placeholder='Search for resources and tutorials' 
@@ -22,13 +22,13 @@ const [selectedButton, setSelectedButton] = useState(resourceButtons[0]);
                 />
            </div>
 
-          <div className='w-full flex flex-row justify-between mt-6'>
+          <div className='w-[60%] sm:w-full flex flex-row justify-between mt-6'>
               <div>
                   {
                       resourceButtons.map((btn, i)=>(
                       <button 
                         key={i}
-                        className={`resource-btn mr-2 ${btn === selectedButton ? 'bg-[#EDF2F5] text-gray-700 border-none' : ''}`}
+                        className={`resource-btn mb-2 mr-2 ${btn === selectedButton ? 'bg-[#EDF2F5] text-gray-700 border-none' : ''}`}
                         onClick={() => setSelectedButton(btn)}
                         >
                           {btn}
