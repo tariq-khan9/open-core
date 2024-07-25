@@ -3,9 +3,15 @@
 @tailwind utilities;
 
 
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.navbar {
+  @apply fixed p-1 top-0 w-full h-20 z-50 flex flex-row justify-center items-end bg-white;
+  background-image: url('/images/nav.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
+
+.resource-btn {
+  @apply font-dm-sans text-[14px] text-gray-500 font-medium border border-gray-300  p-2 px-4  rounded-md focus:bg-[#EDF2F5] focus:text-gray-700 focus:border-none
+}
+
